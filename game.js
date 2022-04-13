@@ -63,7 +63,7 @@ function checkAnswer() {
 
 function gameOver() {
   $("h1").text("Game Over, Press Any Key to Restart");
-  var gameOverAudio = new Audio("sounds/wrong.mp3");
+  var gameOverAudio = new Audio("sounds/wrong.wav");
   gameOverAudio.play();
   $("body").addClass("game-over");
   setTimeout(function() {
